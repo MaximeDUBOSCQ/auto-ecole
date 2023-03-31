@@ -162,7 +162,6 @@ public class CtrlLecon {
             ps.setInt(4, unCodeEleve);
             ps.setString(5, uneImmatriculation);
             ps.execute();
-            rs.close();
             ps.close();
         } catch (SQLException ex) {
             Logger.getLogger(CtrlLecon.class.getName()).log(Level.SEVERE, null, ex);

@@ -34,7 +34,6 @@ public class CtrlLicence {
             ps.setInt(2, idCategorie);
             ps.setString(3, dateObtention);
             ps.execute();
-            rs.close();
             ps.close();
         } catch (SQLException ex) {
             Logger.getLogger(CtrlLicence.class.getName()).log(Level.SEVERE, null, ex);

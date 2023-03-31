@@ -53,7 +53,6 @@ public class CtrlCategorie {
             ps.setString(1, unLibelle);
             ps.setDouble(2, unPrix);
             ps.execute();
-            rs.close();
             ps.close();
         } catch (SQLException ex) {
             Logger.getLogger(CtrlCategorie.class.getName()).log(Level.SEVERE, null, ex);
@@ -67,7 +66,6 @@ public class CtrlCategorie {
             ps.setDouble(2, unPrix);
             ps.setString(3, unAncienLibelle);
             ps.execute();
-            rs.close();
             ps.close();
         } catch (SQLException ex) {
             Logger.getLogger(CtrlCategorie.class.getName()).log(Level.SEVERE, null, ex);

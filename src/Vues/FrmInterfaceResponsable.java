@@ -347,9 +347,9 @@ public class FrmInterfaceResponsable extends javax.swing.JFrame {
                 donnees.setValue( uneValeur.getChiffreAffaire(), "", uneValeur.getLibelleCategorie());
             }
             JFreeChart chart1 = ChartFactory.createBarChart(
-                      "Chiffre d'affaire par catégorie",
+                      "Chiffre d'affaires par catégorie",
              "Nom de la catégorie",
-               "Chiffre d'affaire",
+               "Chiffre d'affaires",
                     donnees,
                  PlotOrientation.VERTICAL, false, true, false);
             ChartPanel graph = new ChartPanel(chart1);
